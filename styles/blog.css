@@ -1,0 +1,47 @@
+@import './global.css';
+
+
+
+.sitenav__link--color{
+color: var(--primary-color);
+}
+
+.blog__title{
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 1.4;
+    color: var(--disc--color);
+    margin-bottom: 50px;
+}
+.blog__card--title{
+    color: var(--disc--color);
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom:17px;
+}
+.blog__year{
+    color: var(--disc--color);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.blog__year__info{
+    color: var(--light-color);
+    margin-left: 10px;
+}
+.blog__disc{
+    font-weight: 400;
+    color: var(--disc--color);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+
+}

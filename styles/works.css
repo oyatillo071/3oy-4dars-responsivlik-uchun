@@ -1,0 +1,55 @@
+@import './global.css';
+@import './home.css';
+
+
+@media screen and (max-width:780px){
+    .header__container{
+        padding-right: 38%;
+    }
+    .featured__card{
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .featured__card img{
+        width: 400px;
+        height: 280px;
+        border-radius:6px;
+    }
+    .featured__card--disc{
+    width: 400px;
+    height: 96px;
+    }
+    .featured__year{
+        gap: 20px;
+    }
+    .social__icons,.copyright{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width:576px) {
+    .header__container{
+        padding-right: 38%;
+    }
+    .featured__card{
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .featured__card img{
+        width: 339px;
+        height: 230px;
+        border-radius:6px;
+    }
+    .featured__card--disc{
+    width: 344px;
+    height: 96px;
+    }
+    .featured__year{
+        gap: 20px;
+    }
+    .social__icons,.copyright{
+        margin-left: 30%;
+    }
+    
+}
