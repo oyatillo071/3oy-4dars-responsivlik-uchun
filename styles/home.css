@@ -320,19 +320,17 @@
 
 @media screen and (max-width:576px) {
    .container{
-    margin-left: 0px;
-    padding-left: 0px;
+    padding-left: -10%;
    }
-    .header__container{
-    width: 576px;
+   .second__section__container{
+    padding-left: -10%;
    }
-    .header__container nav {
 
+    .header__container nav {
         display: none;
     }
     .header__container{
         position: relative;
-
     }
     
     .bar-label {
@@ -429,7 +427,8 @@
 
     .second__section--cards {
         display: inline-block;
-        padding-left: 20%;
+        padding-left: 10%;
+        margin-left: 5%;
 
     }
 
